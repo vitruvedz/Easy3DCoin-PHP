@@ -2,6 +2,7 @@
 A simple class for making calls to 3DCoin's API using PHP.
 
 **1- Getting Started**
+
 Include Easy3DCoin.php into your PHP script:
 
 ```
