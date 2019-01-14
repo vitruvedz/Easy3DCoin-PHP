@@ -13,7 +13,7 @@ require_once('Easy3DCoin.php');
 **2- Initialize 3DCoin connection/object:**
 
 ```
-$Easy3DCoin = new Easy3DCoin('username','password','localhost','port');
+$Easy3DCoin = new Easy3DCoin('http://username:password@127.0.0.1:port/');
 ```
 
 
