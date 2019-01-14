@@ -1,7 +1,7 @@
 # Easy3DCoin-PHP
 A simple class for making calls to 3DCoin's API using PHP.
 
-1- Getting Started
+**1- Getting Started**
 Include Easy3DCoin.php into your PHP script:
 
 ```
@@ -9,14 +9,14 @@ require_once('Easy3DCoin.php');
 ```
 
 
-2- Initialize 3DCoin connection/object:
+**2- Initialize 3DCoin connection/object:**
 
 ```
 $Easy3DCoin = new Easy3DCoin('username','password','localhost','port');
 ```
 
 
-3- Make calls to 3dcoind as methods for your object. Examples:
+**3- Make calls to 3dcoind as methods for your object. Examples:**
 
 
 ```
