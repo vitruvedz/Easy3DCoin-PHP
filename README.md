@@ -5,14 +5,14 @@ A simple class for making calls to 3DCoin's API using PHP.
 
 Include Easy3DCoin.php into your PHP script:
 
-```
+```php
 require_once('Easy3DCoin.php');
 ```
 
 
 **2- Initialize 3DCoin connection/object:**
 
-```
+```php
 $Easy3DCoin = new Easy3DCoin('http://username:password@127.0.0.1:port/');
 ```
 
@@ -20,7 +20,7 @@ $Easy3DCoin = new Easy3DCoin('http://username:password@127.0.0.1:port/');
 **3- Make calls to 3dcoind as methods for your object. Examples:**
 
 
-```
+```php
 $Easy3DCoin->getinfo();
 
 $Easy3DCoin->getrawtransaction('5d3d6a8b935580b5d81c8435393fc5ac79b9aa63cd8dfb0d11b9a14e663b568d',1);
